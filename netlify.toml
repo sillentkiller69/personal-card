@@ -4,3 +4,9 @@
 
 # Publish directory set to project root so Netlify serves `card.html` from the repository root.
 # You can remove `command` if not needed. Add redirects or headers sections here if required.
+
+[[redirects]]
+  from = "/"
+  to = "/card.html"
+  status = 200
+  force = true
